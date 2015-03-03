@@ -1,0 +1,66 @@
+body {
+	font-family: 'Raleway', sans-serif; font-size: 1em; margin: 0px;
+	background-color: white;
+}
+
+.nav, .nav-block, .nav-block1 , .nav-block1 input[type="text"], .site-title, nav, input[type="text"], #credits, #help  {
+	display: none;
+}
+
+
+
+#narrative-sequence-title {
+    font-weight: 300;
+    font-size: 3em;
+    text-align: left;   
+
+}
+
+#container {
+    width: 940px;
+    text-align: center;
+    margin: auto;
+}
+
+ul {
+    margin: 15px auto 0;
+    padding: 0;
+    width: 100%;
+}
+ul li {
+    list-style-type: none;
+    font-size: 24px;
+    cursor: move;
+    background-color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+}
+ul li span {
+    cursor: text;
+}
+ul li a,
+ul li a:link {
+    float: right;
+    display: none;
+    font-weight: bold;    
+    text-decoration: none;
+    color: #B6B6B6;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+ul li a:hover {
+    font-weight: bold;
+    color: #727272;
+}
+
+.highlight {
+font-weight: bold;
+}
+
+.editable input {
+width: 50%;
+}
+
+
+
