@@ -1,57 +1,33 @@
-body {
-	font-family: 'Raleway', sans-serif; font-size: 1em; margin: 0px; padding-top: 100px;
-	background-color: #e5e5e5;
-	font-weight: 400;
-}
+body {font-family: 'Raleway', sans-serif; font-size: 1em;background-color: #eceff1;font-weight: 400;margin:0;padding:0;height:100%;}
+   
+nav {margin-left: 0px;margin-right: 0px;position: fixed;height: 150px;width: 100%;background-color: #f5f5f5 ;box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);color: #FFF;}
 
-nav {
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: -100px;
-	position: fixed;
-	height: 100px;
-	width: 100%;
-	background-color: #f5f5f5;
-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
-color: #FFF;
-font-weight: 700;
-}
+.nav-container {width: 940px;height: 140px;margin-left: auto;margin-right: auto;}
 
+.nav-top {width: 940px;height: 60px;float: left;}
 
-.nav {
+.nav-top-site-title {float: left;width:50%;height: 45px;font-weight: 300;font-size:2em; color: rgba(0, 0, 0, 0.5); padding-top: 15px;}
+
+.nav-top-buttons{float: left;width:50%;height: 45px;font-weight: 300; font-size:0.7em; color: black;padding-top: 15px;}
+
+ .nav-bottom {
     width: 940px;
     text-align: center;
     margin: auto;
+    height: 80px;
   	line-height: 100px;
+  	float: left;
 }
 
-.nav-block {
-   float: left;
-}
+.nav {width: 940px;text-align: center;margin: auto;}
 
-.nav-block1 {
-   float: left;
-  	width: 80%;
-  	text-align: left;
-}
+.nav-block {float: left;}
 
-.nav-block1 input[type="text"]{
-   width: 80%;
-  	}
+.nav-block1 {float: left;width: 80%;text-align: left;}
 
-.site-title {
-	   float: left;
-	font-weight: 300; font-size:1.2em; margin-left:15px;
-	color: rgba(0, 0, 0, 0.5);
-	  	line-height: 100px;
-	
-}
+.nav-block1 input[type="text"]{width: 80%;height: 2em;}
 
-
-a, a:link {
-    outline: none;
-}
-
+a, a:link {outline: none;}
 
 #narrative-sequence-title {
     font-weight: 300;
@@ -60,13 +36,7 @@ a, a:link {
 font-family: 'Pinyon Script', cursive;
 }
 
-#container {
-    width: 940px;
-    text-align: center;
-    margin: auto;
-}
-
-
+#container {width: 940px;text-align: center;padding-top: 150px;margin: 0 auto;}
 
 input[type="text"] {
 padding: 6px 12px;
@@ -104,29 +74,23 @@ text-decoration: none;
 font-family: 'Raleway', sans-serif; font-weight: 300; font-size:1em; 
 }
 
-.editable button, input[type="submit"]:hover {
-border-color: #2196F3;
-}
+.editable button, input[type="submit"]:hover {border-color: #2196F3;}
 
-
-
-ul {
-    margin: 15px auto 0;
-    padding: 0;
-    width: 100%;
-}
+ul {margin: 15px auto 0;padding: 0;width: 100%;}
 ul li {
     list-style-type: none;
     font-size: 24px;
     cursor: move;
     background-color: #fff;
+    margin-top: 15px;
     margin-bottom: 5px;
+    border-radius: 2px;
     padding: 10px;
     text-align: left;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .05), 0 1px 4px 0 rgba(0, 0, 0, .08), 0 3px 1px -2px rgba(0, 0, 0, .2);
 }
-ul li span {
-    cursor: text;
-}
+
+ul li span {cursor: text;}
 ul li a,
 ul li a:link {
     float: right;
@@ -137,51 +101,6 @@ ul li a:link {
     font-size: 0.8em;
     margin-left: 5px;
 }
-ul li a:hover {
-    font-weight: bold;
-    color: #727272;
-}
-
-.highlight {
-font-weight: bold;
-}
-
-.editable input {
-width: 50%;
-}
-
-
-
-
-
-#credits{
-		position:fixed;
-		left:0px;
-		top:250px;
-		color:#fff;
-		z-index:1000;
-		font-size:1em;
-		font-weight: bold;
-		}
-
-#credits:hover #credits-text{color: #000; display:block;width: 300px; height: 300px;background-color: #f5f5f5; padding-left: 10px; padding-right: 5px; font-weight: normal;}
-
-#credits #credits-text{display:none;}
-#credits:hover #creditshdr{display:none;}
-
-
-#help{
-		position:fixed;
-		left:0px;
-		top:200px;
-		color:#fff;
-		z-index:1000;
-		font-size:1em;
-		font-weight: bold;
-		}
-
-#help #help-text{display:none;}
-
-#help:hover #help-text{color: #000; display:block;width: 300px; height: 350px;background-color: #f5f5f5; padding-left: 10px; padding-right: 5px; font-weight: normal;}
-
-#help:hover #helphdr{display:none;}
+ul li a:hover {font-weight: bold;color: #727272;}
+.highlight {font-weight: bold;}
+.editable input {width: 50%;}
